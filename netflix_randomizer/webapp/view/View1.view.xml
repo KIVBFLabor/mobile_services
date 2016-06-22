@@ -1,0 +1,12 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="netflix_randomizer.controller.View1">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+			<content>
+			    <Input width="100%" id="__input0" placeholder="Schauspieler" submit="search_actor"/>
+			    <TextArea id="__area1" rows="20" editable="false" width="100%"/>
+			</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
