@@ -37,7 +37,7 @@
 			            <RadioButton selected="true" groupName="__group0" text="Filme" id="__button2"/>
 			            <RadioButton groupName="__group0" text="Serien" id="__button3"/></buttons>
 			    </RadioButtonGroup>
-			    <Button text="Was soll ich schauen?" width="200px" id="__button4" icon="sap-icon://search" type="Emphasized"/>
+			    <Button text="Was soll ich schauen?" width="200px" id="__button4" icon="sap-icon://search" type="Emphasized" press="on_search"/>
 			    <Text maxLines="0" id="__text0" width="100%"/>
 			    <Panel id="__panel0" headerText="Ergebnis:" backgroundDesign="Solid">
 			        <content>
