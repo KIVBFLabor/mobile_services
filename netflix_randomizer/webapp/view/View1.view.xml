@@ -5,7 +5,7 @@
 			<content>
 			    <sap.ui.layout:VerticalLayout xmlns:sap.ui.layout="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" width="100%" id="__layout1">
 			        <sap.ui.layout:content>
-			            <Input xmlns="sap.m" width="100%" id="__input0" placeholder="Schauspieler" submit="search_actor" fieldWidth="100%"/>
+			            <Input xmlns="sap.m" width="100%" id="__input0" placeholder="Schauspieler" submit="" fieldWidth="100%"/>
 			            <Input width="100%" id="__input1" placeholder="Schlagwort"/>
 			            <Input width="100%" id="__input2" placeholder="Regisseur"/>
 			            <sap.ui.layout:HorizontalLayout xmlns:sap.ui.layout="sap.ui.layout" id="__layout3">
@@ -37,15 +37,15 @@
 			            <RadioButton selected="true" groupName="__group0" text="Filme" id="__button2"/>
 			            <RadioButton groupName="__group0" text="Serien" id="__button3"/></buttons>
 			    </RadioButtonGroup>
-			    <Button text="Was soll ich schauen?" width="200px" id="__button4" icon="sap-icon://search" type="Emphasized" press="on_search"/>
+			    <Button text="Was soll ich schauen?" width="300px" id="__button4" icon="sap-icon://search" type="Emphasized" press="on_search"/>
 			    <Text maxLines="0" id="__text0" width="100%"/>
 			    <Panel id="__panel0" headerText="Ergebnis:" backgroundDesign="Solid">
 			        <content>
 			            <Input width="100%" id="__input3" editable="false" placeholder="Titel"/>
 			            <Input width="100%" id="__input5" fieldWidth="100%" editable="false" placeholder="Regisseur"/>
 			            <Image width="300px" height="400px" id="__image0"/>
-			            <TextArea id="__area0" rows="10" placeholder="Beschreibung" editable="false" width="100%" height="400px"/>
-			            <TextArea id="__area1" width="100%" rows="5" editable="false" placeholder="Schauspieler"/>
+			            <TextArea id="__area0" rows="10" placeholder="Beschreibung" editable="false" width="100%" height="150px"/>
+			            <TextArea id="__area1" width="100%" rows="5" editable="false" placeholder="Schauspieler" height="100px"/>
 			        </content>
 			    </Panel>
 			</content>
