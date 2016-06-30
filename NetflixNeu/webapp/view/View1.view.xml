@@ -3,7 +3,7 @@
 		<pages>
 			<Page title="{i18n>title}">
 			<content>
-			   <ComboBox xmlns:sap.ui.core="sap.ui.core" selectedItem="Element sap.ui.core.ListItem#__item0" value="List Item 1" selectedKey="item1" selectedItemId="__item0" id="__box0">
+			   <ComboBox xmlns:sap.ui.core="sap.ui.core" selectedItem="Element sap.ui.core.ListItem#__item0" value="List Item 1" selectedKey="item1" selectedItemId="__item0" id="__box0" change="ComboSelect">
 			       <items>
 			           <sap.ui.core:ListItem xmlns:sap.ui.core="sap.ui.core" text="Schauspieler" key="actor" id="__item0"/>
 			           <sap.ui.core:ListItem xmlns:sap.ui.core="sap.ui.core" text="Regisseur" key="director" id="__item1"/>
